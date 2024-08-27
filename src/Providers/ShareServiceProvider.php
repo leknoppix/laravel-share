@@ -20,6 +20,7 @@ class ShareServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . '/../../public/js/share.js' => public_path('js/share.js'),
+            __DIR__ . '/../../public/js/share_without_jquery.js' => public_path('js/share_without_jquery.js'),
         ], 'assets');
 
         $this->publishes([

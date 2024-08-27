@@ -71,6 +71,11 @@ Load jquery.min.js & share.js by adding the following lines to your template fil
 <script src="{{ asset('js/share.js') }}"></script>
 ```
 
+if you don't want to use jquery librairy, you can use this:
+```html
+<script src="{{ asset('js/share_without_jquery.js') }}"></script>
+```
+
 ## Usage
 
 ### Creating one share link
